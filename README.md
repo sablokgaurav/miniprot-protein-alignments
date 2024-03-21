@@ -5,7 +5,7 @@ a minprot alignments to get the alignment ranges for the protein malignments tha
 ./miniprot --gff test/DPP3-hs.gen.fa.gz test/DPP3-mm.pep.fa.gz > aln.gff 
 miniprotalignment("/home/gaurav/Desktop/aln.gff", splicetype="mRNA")
 mRNA = miniprotalignment("/home/gaurav/Desktop/aln.gff", splicetype="mRNA")
-length = [i[1]int(i[1][1] - int(i[1][0] for i in mRNA]
+length = [i[1]int(i[1][1]) - int(i[1][0]) for i in mRNA]
 sns.plot(length) 
 ```
 Gaurav Sablok \
