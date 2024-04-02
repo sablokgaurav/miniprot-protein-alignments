@@ -11,6 +11,7 @@ def miniprotalignment(alignment, splicetype=None):
     """
     # /home/gaurav/Desktop/week/miniprot/test/aln.gff
     # miniprotalignment("/home/gaurav/Desktop/aln.gff", splicetype="mRNA")
+    # https://github.com/sablokgaurav/miniprot-protein-alignments
     with open(alignment, "r") as readminprot:
         with open(alignment + "modified.txt", "w") as outminprot:
             for line in readminprot.readlines():
