@@ -8,7 +8,7 @@ mRNA = miniprotalignment("/home/gaurav/Desktop/aln.gff", splicetype="mRNA")
 length = [i[1]int(i[1][1]) - int(i[1][0]) for i in mRNA]
 sns.plot(length) 
 ```
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
